@@ -6,11 +6,11 @@ bot = telebot.TeleBot('5233648050:AAEW_mPUXZ-vbsabAjiDeG9DJu6gy2cMt_Y')
 coll, row = 8, 8
 
 keyboard = telebot.types.InlineKeyboardMarkup()
-keyboard.row( 
-        telebot.types.InlineKeyboardButton('⬅️', callback_data='left'),
-			  telebot.types.InlineKeyboardButton('⬆️', callback_data='up'),
-			  telebot.types.InlineKeyboardButton('⬇️', callback_data='down'),
-			  telebot.types.InlineKeyboardButton('➡️', callback_data='right')
+keyboard.row(
+	telebot.types.InlineKeyboardButton('⬅️', callback_data='left'),
+	telebot.types.InlineKeyboardButton('⬆️', callback_data='up'),
+	telebot.types.InlineKeyboardButton('⬇️', callback_data='down'),
+	telebot.types.InlineKeyboardButton('➡️', callback_data='right')
 )
 
 maps = {}
