@@ -2,7 +2,7 @@ import telebot
 from mg import get_map_cell
 
 
-bot = telebot.TeleBot('<token>')
+bot = telebot.TeleBot('5233648050:AAEW_mPUXZ-vbsabAjiDeG9DJu6gy2cMt_Y')
 coll, row = 8, 8
 
 keyboard = telebot.types.InlineKeyboardMarkup()
